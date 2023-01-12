@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs   #- carpeta donde se generará el blog
+
+website:
+  title: "Max Verstappen en la Formula 1"
+  navbar:
+      right:
+      - text: "Trabajo individual"
+        href: blog.qmd
+      - icon: github
+        href: https://github.com/<perezjm11>
+      - icon: envelope
+        url: "mail:<jomape4@alumni.uv.es>"
+
+ 
+format:
+  html:
+    theme: flatly  
+    css: styles.css
+    toc: true
+    highlight-style: a11y
+
